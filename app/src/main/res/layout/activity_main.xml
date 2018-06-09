@@ -12,6 +12,7 @@
 
     <TextView
         android:id="@+id/status_textview"
+        android:text="Connection state"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -26,6 +27,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Disconnect" />
+
+    <Button
+        android:id="@+id/lights_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lights" />
 
 
 
